@@ -1,0 +1,80 @@
+<view class="container">
+  <view class="header">
+      <view class="section g-wrap">
+    <view class="article-list">
+      <view class="article-list-item">
+        <navigator url="../terminology/terminology"></navigator>
+        <text>推荐内容</text>
+        <image src="../../img/article/jargon.png"></image>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class="list">
+    <view class="list-item">
+      <navigator url="../hero_detail/hero_detail?id="></navigator>
+      <view class="list-avatar">
+        <image class="list-img" src="../../img/role/tank.png"></image>
+      </view>
+      <view class="list-text">
+        <text class="hero_name">hero_name</text>
+        <view class="new_tag">new</view>
+      </view>
+      <view class="list-icon">
+        <image src="../../img/icon/arrow.svg"></image>
+      </view>
+    </view>
+    <view class="list-item">
+      <navigator url="../hero_detail/hero_detail?id="></navigator>
+      <view class="list-avatar">
+        <image class="list-img" src="../../img/role/tank.png"></image>
+      </view>
+      <view class="list-text">
+        <text class="hero_name">hero_name</text>
+        <view class="new_tag">new</view>
+      </view>
+      <view class="list-icon">
+        <image src="../../img/icon/arrow.svg"></image>
+      </view>
+    </view>
+    <view class="list-item">
+      <navigator url="../hero_detail/hero_detail?id="></navigator>
+      <view class="list-avatar">
+        <image class="list-img" src="../../img/role/tank.png"></image>
+      </view>
+      <view class="list-text">
+        <text class="hero_name">hero_name</text>
+        <view class="new_tag">new</view>
+      </view>
+      <view class="list-icon">
+        <image src="../../img/icon/arrow.svg"></image>
+      </view>
+    </view>
+    <view class="list-item">
+      <navigator url="../hero_detail/hero_detail?id="></navigator>
+      <view class="list-avatar">
+        <image class="list-img" src="../../img/role/tank.png"></image>
+      </view>
+      <view class="list-text">
+        <text class="hero_name">hero_name</text>
+        <view class="new_tag">new</view>
+      </view>
+      <view class="list-icon">
+        <image src="../../img/icon/arrow.svg"></image>
+      </view>
+    </view>
+    <view class="list-item">
+      <navigator url="../hero_detail/hero_detail?id="></navigator>
+      <view class="list-avatar">
+        <image class="list-img" src="../../img/role/tank.png"></image>
+      </view>
+      <view class="list-text">
+        <text class="hero_name">hero_name</text>
+        <view class="new_tag">new</view>
+      </view>
+      <view class="list-icon">
+        <image src="../../img/icon/arrow.svg"></image>
+      </view>
+    </view>
+  </view>
+</view>

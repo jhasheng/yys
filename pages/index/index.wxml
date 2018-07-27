@@ -1,0 +1,100 @@
+<i-row>
+  <i-col span="24">
+    <i-panel hide-top="true" hide-border="true">
+      <view style="padding: 15px;">
+        <image mode="widthFix" style="border-radius: 5px;" src="/img/yys.jpg" alt="aa" />
+      </view>
+    </i-panel>
+  </i-col>
+  <i-col span="24">
+    <text class="title">热门式神</text>
+    <scroll-view scroll-x class="slide">
+      <!--  display: inline-block-->
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+    </scroll-view>
+  </i-col>
+  <i-col span="24">
+    <text class="title">秘闻副本</text>
+    <scroll-view scroll-x class="slide">
+      <i-panel hide-top="true" hide-border="true" class="sight-item">
+        <view style="background-image: url('/img/yys.jpg')">副本名称</view>
+      </i-panel>
+      <i-panel hide-top="true" hide-border="true" class="sight-item">
+        <view style="background-image: url('/img/yys.jpg')">副本名称</view>
+      </i-panel>
+      <i-panel hide-top="true" hide-border="true" class="sight-item">
+        <view style="background-image: url('/img/yys.jpg')">副本名称</view>
+      </i-panel>
+      <i-panel hide-top="true" hide-border="true" class="sight-item">
+        <view style="background-image: url('/img/yys.jpg')">副本名称</view>
+      </i-panel>
+      <i-panel hide-top="true" hide-border="true" class="sight-item">
+        <view style="background-image: url('/img/yys.jpg')">副本名称</view>
+      </i-panel>
+      <i-panel hide-top="true" hide-border="true" class="sight-item">
+        <view style="background-image: url('/img/yys.jpg')">副本名称</view>
+      </i-panel>
+    </scroll-view>
+  </i-col>
+  <i-col span="24">
+    <text class="title">斗技热门</text>
+    <scroll-view scroll-x class="slide">
+      <!--  display: inline-block-->
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+      <view class="slide-item">
+        <image src="/img/314.png"></image>
+        <text class="card-name">犬夜叉</text>
+      </view>
+    </scroll-view>
+  </i-col>
+</i-row>
+
+
+<i-tab-bar fixed="true" current="group" color="#f759ab" bindchange="handleChange">
+  <i-tab-bar-item key="homepage" icon="homepage" current-icon="homepage_fill" title="首页"></i-tab-bar-item>
+  <i-tab-bar-item key="group" icon="group" current-icon="group_fill" title="式神"></i-tab-bar-item>
+  <i-tab-bar-item key="remind" icon="remind" current-icon="remind_fill" title="御魂"></i-tab-bar-item>
+  <i-tab-bar-item key="mine" icon="mine" current-icon="mine_fill" title="综合"></i-tab-bar-item>
+</i-tab-bar>
